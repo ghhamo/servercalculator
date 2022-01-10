@@ -11,10 +11,6 @@
 
 #define RCVBUFSIZE 512
 
-char *sett(char *chunk, char *copyChunk, int sizeChunk, int endOfCopyChunk, int sizeOfCopyChunk);
-
-int SIZECHUNK = 512;
-
 char *getSubString(unsigned int start, unsigned int end, const char *expression_string)
 {
     char *line = malloc((end - start + 1) * sizeof(char));
